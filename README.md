@@ -11,6 +11,8 @@ I've added comment lines so that you can take this code and modify it as needed 
 
 3. Best to serve the images for the background and logo over https or most major browsers will display a warning
 
+4. You only need the code below ` Add your custom theme functions here.`, the rest is specific to my current Child Theme
+
 ## Future Additions:
 1. Styling the `Privacy Policy` link at the bottom of the page
 
