@@ -79,6 +79,15 @@ function my_login_page_remove_back_to_link() { ?>
 			color: #a3597f;
 		}
 				
+		/* This adds the focus border and glow */
+		#login #loginform input[type=text]:focus,
+		#login #loginform input[type=password]:focus,
+		#login #loginform input[type=checkbox]:focus {
+  		  border-color:#a3597f;
+  		  -webkit-box-shadow:0 0 2px rgba(163,89,127,.8);
+   		 box-shadow:0 0 2px rgba(163,89,127,.8);
+		}
+		
 		/* This is the login button */
 		body.login div#login form#loginform p.submit input#wp-submit {
   			background-color: #a3597f;
