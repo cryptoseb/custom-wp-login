@@ -1,0 +1,93 @@
+			/* Hide the Remember Me check box*/
+		body.login div#login form#loginform p.forgetmenot {
+			display: none;
+		}
+		
+		/* This is the general login form box */
+		body.login div#login form#loginform {
+			background-color: #ffffff;
+			opacity: 0.8;
+			height: 270px;
+			margin-bottom: -10px;
+		}
+		
+		/* This is the input field for the login form */
+		body.login div#login form#loginform input{
+			background-color: #F5F5F5;
+			color: #0056a3;
+		}
+
+		/* This adds the focus border and glow */
+		#login #loginform input[type=text]:focus,
+		#login #loginform input[type=password]:focus,
+		#login #loginform input[type=checkbox]:focus {
+  		  border-color: #0056a3;
+  		  -webkit-box-shadow: 0 0 2px rgba(0,86,163,.8);
+   		 box-shadow: 0 0 2px rgba(0,86,163,.8);
+		}
+				
+		/* This is the login button */
+		body.login div#login form#loginform p.submit input#wp-submit {
+  			background-color: #ffffff;
+  			color: #0056a3;
+		}
+		
+		/* Edits the background colour for the entire page */
+		body.login {
+  			background-image: url('https://alloutdrilling.ca/wp-content/uploads/water-40percent.jpeg');
+  			background-repeat: no-repeat;
+  			background-attachment: fixed;
+  			background-position: center;
+		}
+		
+		/* Edits the logo that displays above the input fields */
+			body.login div#login h1 a {
+  			background-image: url('https://alloutdrilling.ca/wp-content/uploads/All-Out-Logo-2020.png');
+		    background-size: 194px;
+			width: 194px;
+			height: 205px;
+			background-position: center;
+  			margin-top: -70px;
+			margin-bottom; -15px;
+			}
+		
+		/* Edits the Lost Your Password? button at the bottom */
+		body.login div#login p#nav a:link {
+			font-size: 18px;
+			color: #707070;
+			background-color: #ffffff;
+			opacity: 0.8;
+			padding: 14px 25px;
+			text-align: center;
+			display: inline-block;
+			width: 268px;
+			margin-left: -22px;
+			margin-bottom: -80px;
+		}
+		
+		/* Edits the Lost Your Password? button at the bottom on hover */
+		body.login div#login p#nav a:hover {
+			font-size: 18px;
+			color: #0056a3;
+			background-color: #ffffff;
+			opacity: 0.8;
+			padding: 14px 25px;
+			text-align: center;
+			display: inline-block;
+			width: 268px;
+			margin-left: -22px;
+			margin-bottom: -80px;
+		}
+
+  /* This changes the logo to fit on mobile */
+@media only screen and (max-width: 630px) {
+		body.login div#login h1 a {
+  			background-image: url('https://alloutdrilling.ca/wp-content/uploads/All-Out-Logo-2020.png');
+		    background-size: 135px;
+			width: 135px;
+			height: 146px;
+			background-position: center;
+  			margin-top: -10px;
+			margin-bottom; -5px;
+			}
+}
