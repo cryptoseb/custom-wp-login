@@ -7,7 +7,7 @@ I've added comment lines so that you can take this code and modify it as needed 
 ## Some Notes:
 1. You should install and activate a Child Theme before modifying your functions.php file
 
-2. I have fixed the styling on mobile. I had ZERO clue how CSS worked when I originally copied the code linked from multiple sources. I now have a clue and made it look better
+2. I have fixed the styling on mobile. I had ZERO clue how CSS worked when I originally pieced this together jankily. I now have a bit of a clue and made it look better
 
 3. Best to serve the images for the background and logo over https or most major browsers will display a warning
 
