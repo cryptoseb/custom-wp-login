@@ -7,7 +7,7 @@ I've added comment lines so that you can take this code and modify it as needed 
 ## Some Notes:
 1. You should install and activate a Child Theme before modifying your functions.php file
 
-2. The current styling that I uploaded looks great on a 13" and 15" Macbook, but it is sort of messed up on mobile (iPhone SE). This is fine, we don't login on mobile. You can edit the margins if you want your mobile login to look better
+2. I have fixed the styling on mobile. I had ZERO clue how CSS worked when I originally copied the code linked from multiple sources. I now have a clue and made it look better
 
 3. Best to serve the images for the background and logo over https or most major browsers will display a warning
 
@@ -16,4 +16,4 @@ I've added comment lines so that you can take this code and modify it as needed 
 ## Future Additions:
 1. Styling the `Privacy Policy` link at the bottom of the page
 
-2. Edit the blue border that appears on `input:focus`. I've been fighting with this and can't figure it out. If you can help me, you should definitely get in touch.
+2. Add some more complex styling now that I have a basic understanding of HTML/CSS
